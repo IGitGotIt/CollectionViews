@@ -22,6 +22,21 @@
 		23A28F5E19A66E6000D054FB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 23A28F5C19A66E6000D054FB /* InfoPlist.strings */; };
 		23A28F6019A66E6000D054FB /* CollectionViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A28F5F19A66E6000D054FB /* CollectionViewsTests.m */; };
 		23A28F6B19A6735900D054FB /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A28F6A19A6735900D054FB /* Cell.m */; };
+		23A28F6D19A689EF00D054FB /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F6C19A689EF00D054FB /* libstdc++.6.0.9.dylib */; };
+		23A28F6F19A689F900D054FB /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F6E19A689F900D054FB /* libstdc++.dylib */; };
+		23A28F7119A68A0500D054FB /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F7019A68A0500D054FB /* libxml2.dylib */; };
+		23A28F7319A68A0D00D054FB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F7219A68A0D00D054FB /* libsqlite3.dylib */; };
+		23A28F7519A68A1600D054FB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F7419A68A1600D054FB /* OpenGLES.framework */; };
+		23A28F7719A68A1F00D054FB /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F7619A68A1F00D054FB /* GLKit.framework */; };
+		23A28F7919A68A2A00D054FB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F7819A68A2A00D054FB /* CoreTelephony.framework */; };
+		23A28F7B19A68A3600D054FB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F7A19A68A3600D054FB /* SystemConfiguration.framework */; };
+		23A28F7D19A68A3F00D054FB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F7C19A68A3F00D054FB /* AudioToolbox.framework */; };
+		23A28F7F19A68A4900D054FB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F7E19A68A4900D054FB /* CoreVideo.framework */; };
+		23A28F8119A68A6200D054FB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F8019A68A6200D054FB /* CoreMedia.framework */; };
+		23A28F8519A68B5C00D054FB /* OpenTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F8419A68B5C00D054FB /* OpenTok.framework */; };
+		23A28F8719A68B9D00D054FB /* libpthread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F8619A68B9D00D054FB /* libpthread.dylib */; };
+		23A28F8919A68BBB00D054FB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F8819A68BBB00D054FB /* QuartzCore.framework */; };
+		23A28F8B19A68C3900D054FB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A28F8A19A68C3900D054FB /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +71,21 @@
 		23A28F5F19A66E6000D054FB /* CollectionViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewsTests.m; sourceTree = "<group>"; };
 		23A28F6919A6735900D054FB /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 		23A28F6A19A6735900D054FB /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+		23A28F6C19A689EF00D054FB /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		23A28F6E19A689F900D054FB /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		23A28F7019A68A0500D054FB /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		23A28F7219A68A0D00D054FB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		23A28F7419A68A1600D054FB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		23A28F7619A68A1F00D054FB /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		23A28F7819A68A2A00D054FB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		23A28F7A19A68A3600D054FB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		23A28F7C19A68A3F00D054FB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		23A28F7E19A68A4900D054FB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		23A28F8019A68A6200D054FB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		23A28F8419A68B5C00D054FB /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenTok.framework; sourceTree = "<group>"; };
+		23A28F8619A68B9D00D054FB /* libpthread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpthread.dylib; path = usr/lib/libpthread.dylib; sourceTree = SDKROOT; };
+		23A28F8819A68BBB00D054FB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		23A28F8A19A68C3900D054FB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +93,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23A28F8B19A68C3900D054FB /* AVFoundation.framework in Frameworks */,
+				23A28F8919A68BBB00D054FB /* QuartzCore.framework in Frameworks */,
+				23A28F8719A68B9D00D054FB /* libpthread.dylib in Frameworks */,
+				23A28F8119A68A6200D054FB /* CoreMedia.framework in Frameworks */,
+				23A28F8519A68B5C00D054FB /* OpenTok.framework in Frameworks */,
+				23A28F7F19A68A4900D054FB /* CoreVideo.framework in Frameworks */,
+				23A28F7D19A68A3F00D054FB /* AudioToolbox.framework in Frameworks */,
+				23A28F7B19A68A3600D054FB /* SystemConfiguration.framework in Frameworks */,
+				23A28F7919A68A2A00D054FB /* CoreTelephony.framework in Frameworks */,
+				23A28F7719A68A1F00D054FB /* GLKit.framework in Frameworks */,
+				23A28F7519A68A1600D054FB /* OpenGLES.framework in Frameworks */,
+				23A28F7319A68A0D00D054FB /* libsqlite3.dylib in Frameworks */,
+				23A28F7119A68A0500D054FB /* libxml2.dylib in Frameworks */,
+				23A28F6F19A689F900D054FB /* libstdc++.dylib in Frameworks */,
+				23A28F6D19A689EF00D054FB /* libstdc++.6.0.9.dylib in Frameworks */,
 				23A28F3719A66E6000D054FB /* CoreGraphics.framework in Frameworks */,
 				23A28F3919A66E6000D054FB /* UIKit.framework in Frameworks */,
 				23A28F3519A66E6000D054FB /* Foundation.framework in Frameworks */,
@@ -104,6 +149,21 @@
 		23A28F3319A66E6000D054FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				23A28F8A19A68C3900D054FB /* AVFoundation.framework */,
+				23A28F7019A68A0500D054FB /* libxml2.dylib */,
+				23A28F7219A68A0D00D054FB /* libsqlite3.dylib */,
+				23A28F6C19A689EF00D054FB /* libstdc++.6.0.9.dylib */,
+				23A28F6E19A689F900D054FB /* libstdc++.dylib */,
+				23A28F8619A68B9D00D054FB /* libpthread.dylib */,
+				23A28F8419A68B5C00D054FB /* OpenTok.framework */,
+				23A28F7619A68A1F00D054FB /* GLKit.framework */,
+				23A28F8819A68BBB00D054FB /* QuartzCore.framework */,
+				23A28F8019A68A6200D054FB /* CoreMedia.framework */,
+				23A28F7E19A68A4900D054FB /* CoreVideo.framework */,
+				23A28F7C19A68A3F00D054FB /* AudioToolbox.framework */,
+				23A28F7A19A68A3600D054FB /* SystemConfiguration.framework */,
+				23A28F7819A68A2A00D054FB /* CoreTelephony.framework */,
+				23A28F7419A68A1600D054FB /* OpenGLES.framework */,
 				23A28F3419A66E6000D054FB /* Foundation.framework */,
 				23A28F3619A66E6000D054FB /* CoreGraphics.framework */,
 				23A28F3819A66E6000D054FB /* UIKit.framework */,
@@ -382,10 +442,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CollectionViews/CollectionViews-Prefix.pch";
 				INFOPLIST_FILE = "CollectionViews/CollectionViews-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,10 +461,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CollectionViews/CollectionViews-Prefix.pch";
 				INFOPLIST_FILE = "CollectionViews/CollectionViews-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
